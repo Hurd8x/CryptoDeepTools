@@ -240,7 +240,7 @@ PrintAddress(EC_KEY *myecc, unsigned char *b58upkh, unsigned char *b58cpkh, unsi
         pkey = BN_bn2hex(pky);
         printf(%s\n", pkey);
 	//printf("%s\n", b58upkh);
-	printf("%s\n", b58cpkh);
+	//printf("%s\n", b58cpkh);
 	//printf("%s\n", b58cpsh);
 }
 /*
@@ -616,7 +616,7 @@ prog_run(pid_t pid, prog_t *p)
 				if (! (EC_KEY_generate_key(myecc)))
 					ERREXIT("EC_KEY_generate_key() failed. We fucked up.\n");
 				CreateAddress(myecc, b58up2pkh, b58cp2pkh, b58cp2sh);
-				PrintAddress(myecc, b58up2pkh, b58cp2pkh, b58cp2sh);
+				PrintAddress(myecc,b58up2pkh)
 				break;
 			}
 			if (p->gen[i] == -3)
