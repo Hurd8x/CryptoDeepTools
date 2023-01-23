@@ -24,6 +24,12 @@ Script [breakECDSA.py](https://github.com/demining/CryptoDeepTools/blob/main/02B
     
     cd CryptoDeepTools/02BreakECDSAcryptography/
     
+    sudo apt install python2-minimal
+    
+    wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
+    
+    sudo python2 get-pip.py
+    
     pip2 install -r requirements.txt
 
     chmod +x getsign.sh
@@ -49,5 +55,5 @@ Script [breakECDSA.py](https://github.com/demining/CryptoDeepTools/blob/main/02B
 
 |  | Donation Address |
 | --- | --- |
-| ♥ __BTC__ | 1Lw2kh9WzCActXSGHxyypGLkqQZfxDpw8v |
+| ♥ __BTC__ | 1Lw2gTnMpxRUNBU85Hg4ruTwnpUPKdf3nV |
 | ♥ __ETH__ | 0xaBd66CF90898517573f19184b3297d651f7b90bf |
